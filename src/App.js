@@ -5,7 +5,7 @@ import Footer from './components/common/Footer';
 import MainHeader from './components/common/Headers/MainHeader';
 import { Routes, Route } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/home/Home';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/pricing" element={<div>Pricing</div>} />
         <Route path="/about" element={<div>About</div>} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

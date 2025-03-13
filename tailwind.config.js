@@ -17,8 +17,13 @@ module.exports = {
         '128': '32rem',
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ['Poppins'],
         notoSans: ['Noto Sans', 'sans-serif'],
+      },
+      boxShadow: {
+        'custom-light': '0px 20px 30px #0000000F',
+        'custom-primary': '0px 20px 30px #256F7738',
+        'custom-secondary': '0px 20px 30px #0000000F',
       },
     },
   },
