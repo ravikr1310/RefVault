@@ -1,6 +1,7 @@
 import React from 'react';
 import FeaturesBg from '../../images/featuresBg.png';
 import { SpeedometerIcon, ValidationIcon, AnalyticIcon, ArrowIcon, ClickIcon, ConfidentialIcon } from '../constant/SvgFile';
+import Carosel from './Carosel';
 
 function Features() {
     return (
@@ -17,7 +18,7 @@ function Features() {
                     <p className='text-base font-light font-notoSans pt-8 text-white max-w-[508px] m-auto'>Explore the powerful features that make our platform the ultimate resource for securing trusted references.</p>
                 </div>
                 <div className="flex justify-center items-center h-full pt-[64px]">
-
+                    <Carosel />
                 </div>
             </div>
         </div>
