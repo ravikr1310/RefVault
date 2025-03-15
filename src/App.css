@@ -42,3 +42,54 @@ body {
 * {
   font-family: "Poppins", sans-serif; /* Apply Poppins font globally */
 }
+
+.feature-custom-carousel .swiper.swiper-initialized.swiper-horizontal {
+  height: 576px;
+}
+
+.feature-custom-carousel .swiper-pagination-bullet {
+  width: 30px;
+  height: 3px;
+  display: inline-block;
+  border-radius: 2px;
+  background: white;
+  opacity: 0.2;
+}
+.feature-custom-carousel
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.client-custom-carousel .swiper-pagination-bullet {
+  width: 30px;
+  height: 3px;
+  display: inline-block;
+  border-radius: 2px;
+  background: #256f77;
+  opacity: 0.2;
+}
+
+.client-custom-carousel
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.client-custom-carousel .swiper-pagination {
+}
+
+.client-custom-carousel .swiper.swiper-initialized.swiper-horizontal {
+  height: 426px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
