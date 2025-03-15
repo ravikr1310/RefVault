@@ -12,6 +12,7 @@ module.exports = {
         secondaryWhite: '#FFFFFF00',
         primaryGray: '#1D0D3233',
         secondaryGray: '#00000014',
+        black1: '#1D0D3200'
       },
       spacing: {
         '128': '32rem',

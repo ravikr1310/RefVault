@@ -11,41 +11,41 @@ function OurProcess() {
                     </div></h2>
                     <p className='text-base font-light font-notoSans pt-8'>Discover how RefVault streamlines your reference management with a smooth, efficient process that saves you time and effort.</p>
                 </div>
-                <div className="grid grid-cols-5 gap-[30px] mt-[123px] justify-between">
-                    <div className="px-10 py-[50px] bg-white rounded-[10px] shadow-custom-secondary max-w-[300px]">
-                        <div className="flex items-center justify-center">
+                <div className="flex items-center gap-[30px] mt-[123px]">
+                    <div className="px-10 py-5 bg-white rounded-[10px] shadow-custom-secondary max-w-[300px] min-h-[450px]">
+                        <div className="flex items-center justify-center h-[196px]">
                             01
                         </div>
-                        <div className='text-lg font-semibold text-primaryColor max-w-[115px] leading-[1.3] pb-5'>Create Your Account</div>
+                        <div className='text-lg font-semibold text-primaryColor max-w-[181px] leading-[1.3] py-5'>Create Your Account</div>
                         <p className='text-sm font-light font-notoSans justify-start'>Sign up and create a profile as an institution or individual.</p>
                     </div>
-                    <div className="px-10 py-[50px] bg-white rounded-[10px] shadow-custom-secondary max-w-[300px]">
-                        <div className="flex items-center justify-center">
+                    <div className="px-10 py-5 bg-white rounded-[10px] shadow-custom-secondary max-w-[300px] min-h-[450px]">
+                        <div className="flex items-center justify-center h-[196px]">
                             02
                         </div>
-                        <div className='text-lg font-semibold text-primaryColor max-w-[115px] leading-[1.3] pb-5'>Create Your Account</div>
-                        <p className='text-sm font-light font-notoSans justify-start'>Sign up and create a profile as an institution or individual.</p>
+                        <div className='text-lg font-semibold text-primaryColor max-w-[181px] leading-[1.3] py-5'>Start A Reference Project</div>
+                        <p className='text-sm font-light font-notoSans justify-start'>Initiate a project to gather professional references-whether as an institution seeking insights for a role or program, or an individual building a reference portfolio.</p>
                     </div>
-                    <div className="px-10 py-[50px] bg-white rounded-[10px] shadow-custom-secondary max-w-[300px]">
-                        <div className="flex items-center justify-center">
+                    <div className="px-10 py-5 bg-white rounded-[10px] shadow-custom-secondary max-w-[300px] min-h-[450px]">
+                        <div className="flex items-center justify-center h-[196px]">
                             02
                         </div>
-                        <div className='text-lg font-semibold text-primaryColor max-w-[115px] leading-[1.3] pb-5'>Create Your Account</div>
-                        <p className='text-sm font-light font-notoSans justify-start'>Sign up and create a profile as an institution or individual.</p>
+                        <div className='text-lg font-semibold text-primaryColor max-w-[181px] leading-[1.3] py-5'>Deploy Reference Questionnaires</div>
+                        <p className='text-sm font-light font-notoSans justify-start'>Select from RefVault’s library of reference questionnaires tailored to various roles and programs. Send to referees via email and mobile for a hassle-free experience.</p>
                     </div>
-                    <div className="px-10 py-[50px] bg-white rounded-[10px] shadow-custom-secondary max-w-[300px]">
-                        <div className="flex items-center justify-center">
+                    <div className="px-10 py-5 bg-white rounded-[10px] shadow-custom-secondary max-w-[300px] min-h-[450px]">
+                        <div className="flex items-center justify-center h-[196px]">
                             02
                         </div>
-                        <div className='text-lg font-semibold text-primaryColor max-w-[115px] leading-[1.3] pb-5'>Create Your Account</div>
-                        <p className='text-sm font-light font-notoSans justify-start'>Sign up and create a profile as an institution or individual.</p>
+                        <div className='text-lg font-semibold text-primaryColor max-w-[181px] leading-[1.3] py-5'>Track Responses In Real-Time</div>
+                        <p className='text-sm font-light font-notoSans justify-start'>Monitor progress with instant updates as referees complete their submissions. Stay informed every step of the way without delays.</p>
                     </div>
-                    <div className="px-10 py-[50px] bg-white rounded-[10px] shadow-custom-secondary max-w-[300px]">
-                        <div className="flex items-center justify-center">
+                    <div className="px-10 py-5 bg-white rounded-[10px] shadow-custom-secondary max-w-[300px] min-h-[450px]">
+                        <div className="flex items-center justify-center h-[196px]">
                             02
                         </div>
-                        <div className='text-lg font-semibold text-primaryColor max-w-[115px] leading-[1.3] pb-5'>Create Your Account</div>
-                        <p className='text-sm font-light font-notoSans justify-start'>Sign up and create a profile as an institution or individual.</p>
+                        <div className='text-lg font-semibold text-primaryColor max-w-[181px] leading-[1.3] py-5'>Receive Analyzed Insights</div>
+                        <p className='text-sm font-light font-notoSans justify-start'>RefVault analyzes questionnaires in real-time, delivering insights that help institutions to effectively compare candidates.</p>
                     </div>
                 </div>
                 <div className='flex items-center justify-center mt-[62px] gap-5'>
