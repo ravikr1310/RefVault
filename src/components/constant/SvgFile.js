@@ -219,3 +219,23 @@ export const InstagramIcon = (props) => (
 
 )
 
+export const CaroselRightArrow = (props) => (
+    <svg id="Group_356" data-name="Group 356" xmlns="http://www.w3.org/2000/svg" width={props.width ?? "50"} height={props.height ?? "50"} viewBox="0 0 50 50">
+        <g id="Ellipse_2" data-name="Ellipse 2" fill="rgba(246,249,250,0)" stroke="#fff" stroke-width="1">
+            <circle cx="25" cy="25" r="25" stroke="none"/>
+            <circle cx="25" cy="25" r="24.5" fill="none"/>
+        </g>
+        <path id="Path_29" data-name="Path 29" d="M10.2,8.7a1.537,1.537,0,0,1,2.174,0l6.149,6.149a1.537,1.537,0,0,1,0,2.174l-6.149,6.149A1.537,1.537,0,0,1,10.2,21l5.062-5.062L10.2,10.874A1.537,1.537,0,0,1,10.2,8.7Z" transform="translate(10.638 9.065)" fill={props.primaryFill ?? "#fff"} fill-rule="evenodd"/>
+    </svg>
+);
+
+export const CaroselLeftArrow = (props) => (
+    <svg id="Group_251" data-name="Group 251" xmlns="http://www.w3.org/2000/svg" height={props.height ?? "50"} viewBox="0 0 50 50">
+        <g id="Ellipse_2" data-name="Ellipse 2" fill="rgba(246,249,250,0)" stroke="#fff" stroke-width="1">
+            <circle cx="25" cy="25" r="25" stroke="none"/>
+            <circle cx="25" cy="25" r="24.5" fill="none"/>
+        </g>
+        <path id="Path_29" data-name="Path 29" d="M18.523,8.7a1.537,1.537,0,0,0-2.174,0L10.2,14.849a1.537,1.537,0,0,0,0,2.174l6.149,6.149A1.537,1.537,0,0,0,18.523,21l-5.062-5.062,5.062-5.062A1.537,1.537,0,0,0,18.523,8.7Z" transform="translate(10.639 9.065)" fill={props.primaryFill ?? "#fff"} fill-rule="evenodd"/>
+    </svg>
+);
+
