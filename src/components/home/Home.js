@@ -7,6 +7,8 @@ import OurProcess from './OurProcess';
 import Features from './Features';
 import Testimonials from './Testimonials';
 import Join from './Join';
+import TrustedPartner from './TrustedPartner';
+import RefrenceCheck from './RefrenceCheck';
 
 function Home() {
     return (
@@ -19,6 +21,8 @@ function Home() {
             <Features />
             <Testimonials />
             <Join />
+            <RefrenceCheck />
+            <TrustedPartner />
         </>
     )
 }

@@ -1,5 +1,9 @@
 import React from 'react';
 import BusinessMan from '../../images/smiling-businessman-his-office.png';
+import WorkingProfessional from '../../images/group-people-working-out-business-plan-office.png';
+import Students from '../../images/groupmates-learning-university-girl-looking-camera.png';
+import Employers from '../../images/beautiful-young-businesswoman-making-eye-contact-while-sitting-amidst-colleagues-desk-meeting-office.png';
+import Schools from '../../images/schools.png';
 
 function WhoYouAre() {
     return (
@@ -22,28 +26,28 @@ function WhoYouAre() {
                     </div>
                     <div className="flex flex-col items-center">
                         <div className="flex items-center justify-center">
-                            <img src={BusinessMan} alt='interview' />
+                            <img src={WorkingProfessional} alt='interview' />
                         </div>
                         <div className='text-base font-semibold text-black pt-8 pb-5'>Working Professionals</div>
                         <p className='text-sm font-light font-notoSans text-center max-w-[170px]'>Build and maintain a portfolio of career endorsements.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <div className="flex items-center justify-center">
-                            <img src={BusinessMan} alt='interview' />
+                            <img src={Students} alt='interview' />
                         </div>
                         <div className='text-base font-semibold text-black pt-8 pb-5'>Students</div>
                         <p className='text-sm font-light font-notoSans text-center max-w-[170px]'>Secure academic and extracurricular references for future use.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <div className="flex items-center justify-center">
-                            <img src={BusinessMan} alt='interview' />
+                            <img src={Employers} alt='interview' />
                         </div>
                         <div className='text-base font-semibold text-black pt-8 pb-5'>Employers</div>
                         <p className='text-sm font-light font-notoSans text-center max-w-[170px]'>Automate and enhance hiring decisions with structured insights.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <div className="flex items-center justify-center">
-                            <img src={BusinessMan} alt='interview' />
+                            <img src={Schools} alt='interview' />
                         </div>
                         <div className='text-base font-semibold text-black pt-8 pb-5'>Schools</div>
                         <p className='text-sm font-light font-notoSans text-center max-w-[170px]'>Streamline admissions with standardized, insightful references.</p>

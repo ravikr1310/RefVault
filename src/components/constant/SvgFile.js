@@ -210,7 +210,12 @@ export const FacebookIcon = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg" width={props.width ?? "11"} height={props.height ?? "21.999"} viewBox="0 0 11 21.999">
         <path id="facebook" d="M95.568,34.828V24.793h3.243l.486-3.911H95.568v-2.5c0-1.132.3-1.9,1.866-1.9h1.994v-3.5a25.742,25.742,0,0,0-2.906-.154c-2.875,0-4.843,1.822-4.843,5.169v2.884H88.428v3.911h3.251V34.828Z" transform="translate(-88.428 -12.829)" fill={props.primaryFill ?? "#fff"} />
     </svg>
-
-
 );
+
+export const InstagramIcon = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width={props.width ?? "22"} height={props.height ?? "22"} viewBox="0 0 22 22">
+        <path id="Union_3" data-name="Union 3" d="M6.16,22A6.167,6.167,0,0,1,0,15.84V6.16A6.167,6.167,0,0,1,6.16,0h9.68A6.167,6.167,0,0,1,22,6.16v9.68A6.167,6.167,0,0,1,15.84,22ZM5.72,11A5.28,5.28,0,1,0,11,5.72,5.28,5.28,0,0,0,5.72,11ZM15.4,5.28a1.32,1.32,0,1,0,1.32-1.32A1.32,1.32,0,0,0,15.4,5.28ZM7.48,11A3.52,3.52,0,1,1,11,14.52,3.52,3.52,0,0,1,7.48,11Z" fill={props.primaryFill ?? "#fff"} />
+    </svg>
+
+)
 
