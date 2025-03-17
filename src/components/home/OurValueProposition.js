@@ -18,32 +18,32 @@ function OurValueProposition() {
                 </div>
                 <div className="flex justify-center items-center h-full pt-[64px]">
                     <div className="grid grid-cols-2 gap-[30px]">
-                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 text-white rounded-[10px] w-[400px]'>
+                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 backdrop-blur-md text-white rounded-[10px] w-[400px]'>
                             <SpeedometerIcon />
                             <h2 className='pt-[33px] text-lg font-semibold'>Efficiency</h2>
                             <p className='pt-5 text-base font-light max-w-[300px]'>Save up to 50% of the time spent on reference checks.</p>
                         </div>
-                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 text-white rounded-[10px] w-[400px]'>
+                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 backdrop-blur-md text-white rounded-[10px] w-[400px]'>
                             <ValidationIcon />
                             <h2 className='pt-[33px] text-lg font-semibold'>Credibility</h2>
                             <p className='pt-5 text-base font-light max-w-[300px]'>Verified, trusted references every time.</p>
                         </div>
-                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 text-white rounded-[10px] w-[400px]'>
+                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 backdrop-blur-md text-white rounded-[10px] w-[400px]'>
                             <AnalyticIcon />
                             <h2 className='pt-[33px] text-lg font-semibold'>Insights</h2>
                             <p className='pt-5 text-base font-light max-w-[300px]'>Gain actionable data to improve hiring decisions.</p>
                         </div>
-                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 text-white rounded-[10px] w-[400px]'>
+                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 backdrop-blur-md text-white rounded-[10px] w-[400px]'>
                             <ArrowIcon />
                             <h2 className='pt-[33px] text-lg font-semibold'>Reuse</h2>
                             <p className='pt-5 text-base font-light max-w-[300px]'>No more repeated requests—use archived references anytime.</p>
                         </div>
-                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 text-white rounded-[10px] w-[400px]'>
+                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 backdrop-blur-md text-white rounded-[10px] w-[400px]'>
                             <ClickIcon />
                             <h2 className='pt-[33px] text-lg font-semibold'>Accessibility</h2>
                             <p className='pt-5 text-base font-light max-w-[300px]'>Manage references anytime, anywhere with a user-friendly platform.</p>
                         </div>
-                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 text-white rounded-[10px] w-[400px]'>
+                        <div className='py-[30px] px-[40px] bg-white bg-opacity-20 backdrop-blur-md text-white rounded-[10px] w-[400px]'>
                             <ConfidentialIcon />
                             <h2 className='pt-[33px] text-lg font-semibold'>Confidentiality</h2>
                             <p className='pt-5 text-base font-light max-w-[300px]'>Protect sensitive information with industry- leading security measures.</p>

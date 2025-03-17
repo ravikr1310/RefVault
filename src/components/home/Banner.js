@@ -13,8 +13,8 @@ function Banner() {
                     <h1 className="text-[32px] md:text-[50px] font-bold font-poppins leading-[1.15] pb-6">Streamlined, Secure, And Smart Reference Management</h1>
                     <p className="text-sm md:text-base font-light font-notoSans opacity-90 w-full md:w-[380px]">Request, Verify, Analyze and Archive Professional References – all in one platform</p>
                     <div className="flex gap-4 mt-6">
-                        <button className="py-2 px-5 rounded-md bg-secondaryColor text-sm text-white font-medium">Get Started for Free</button>
-                        <button className="py-2 px-5 rounded-md text-sm bg-white text-secondaryColor font-medium">Learn More</button>
+                        <button className="py-[18px] px-5 rounded-md bg-secondaryColor text-lg text-white font-medium font-poppins">Get Started for Free</button>
+                        <button className="py-[18px] px-5 rounded-md text-lg bg-white text-secondaryColor font-medium font-poppins">Learn More</button>
                     </div>
                 </div>
                 <div className="hidden md:flex flex-col items-center justify-center space-y-4 absolute right-4 md:right-[56px] top-1/2 transform -translate-y-1/2">

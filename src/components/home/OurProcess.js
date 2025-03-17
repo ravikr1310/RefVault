@@ -9,7 +9,7 @@ function OurProcess() {
                     <h2 className='text-[40px] font-bold font-poppins leading-[2.85rem] pt-5'><div>
                         How It<span className='text-primaryColor'> Works</span>
                     </div></h2>
-                    <p className='text-base font-light font-notoSans pt-8'>Discover how RefVault streamlines your reference management with a smooth, efficient process that saves you time and effort.</p>
+                    <p className='text-base font-light font-notoSans pt-8 max-w-[717px] m-auto'>Discover how RefVault streamlines your reference management with a smooth, efficient process that saves you time and effort.</p>
                 </div>
                 <div className="flex items-center mt-[123px]">
                     <div className="overflow-hidden">
