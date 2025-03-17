@@ -7,7 +7,7 @@ import Downarrow from '../../../images/downarrow.png';
 
 function MainHeader() {
     return (
-        <div className='py-[22px] flex items-center'>
+        <div className='py-[22px] flex items-center bg-white'>
             <div className='w-[1169px] flex items-center'>
                 <LogoIcon />
                 <div className='flex justify-between w-full'>

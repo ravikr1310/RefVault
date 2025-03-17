@@ -4,11 +4,11 @@ import MainHeader from './MainHeader'
 
 function Header() {
     return (
-        <div>
+        <div className='fixed top-0 left-0 w-full z-50'>
             <div className='flex justify-center bg-secondaryColor'>
                 <TopHeader />
             </div>
-            <div className='flex justify-center'>
+            <div className='flex justify-center bg-white'>
                 <MainHeader />
             </div>
         </div>
