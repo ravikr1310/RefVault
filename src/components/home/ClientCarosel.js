@@ -89,10 +89,10 @@ export default function FeatureCarousel() {
         </div>
         {/* Navigation Arrows */}
         <div className="flex justify-between">
-          <button className="prev-btn absolute -left-[80px] top-1/4 transform -translate-y-1/2 p-2 ">
+          <button className="prev-btn absolute -left-[80px] top-[45%] transform -translate-y-1/2 p-2 ">
             <img src={CarouselLeftArrow} alt="Left Arrow" />
           </button>
-          <button className="next-btn absolute -right-[80px] top-1/4 transform -translate-y-1/2 p-2">
+          <button className="next-btn absolute -right-[80px] top-[45%] transform -translate-y-1/2 p-2">
             <img src={CarouselRightArrow} alt="Right Arrow" />
           </button>
         </div>

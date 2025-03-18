@@ -110,7 +110,7 @@ export default function FeatureCarousel() {
           {features.map((feature, index) => (
             <SwiperSlide key={index} className="flex justify-center">
               <div
-                className={`transition-all duration-300 ease-in-out ${activeIndex === index ? "scale-100 shadow-2xl pt-[10px] h-[375px]" : "scale-90 opacity-70"
+                className={`transition-all duration-300 ease-in-out ${activeIndex === index ? "scale-100 shadow-2xl pt-[10px] h-[375px]" : "scale-90 mt-[41px] opacity-70"
                   } bg-white rounded-lg shadow-lg p-[10px] w-[270px] text-center`}
               >
                 <img
@@ -129,10 +129,10 @@ export default function FeatureCarousel() {
 
         {/* Navigation Arrows */}
         <div className="flex justify-between">
-          <button className="prev-btn absolute -left-[80px] top-[27%] transform -translate-y-1/2 p-2 rounded-full shadow-md">
+          <button className="prev-btn absolute -left-[80px] top-[33%] transform -translate-y-1/2 p-2 rounded-full shadow-md">
             <CaroselLeftArrow />
           </button>
-          <button className="next-btn absolute -right-[80px] top-[27%] transform -translate-y-1/2 p-2 rounded-full shadow-md">
+          <button className="next-btn absolute -right-[80px] top-[33%] transform -translate-y-1/2 p-2 rounded-full shadow-md">
             <CaroselRightArrow />
           </button>
         </div>

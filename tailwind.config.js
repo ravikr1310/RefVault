@@ -25,6 +25,7 @@ module.exports = {
         'custom-light': '0px 20px 30px #0000000F',
         'custom-primary': '0px 20px 30px #256F7738',
         'custom-secondary': '0px 20px 30px #0000000F',
+        'custom-header': '0px 10px 20px #00000014'
       },
     },
   },

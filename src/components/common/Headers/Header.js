@@ -4,7 +4,7 @@ import MainHeader from './MainHeader'
 
 function Header() {
     return (
-        <div className='fixed top-0 left-0 w-full z-50'>
+        <div className='fixed top-0 left-0 w-full z-50 shadow-custom-header'>
             <div className='flex justify-center bg-secondaryColor'>
                 <TopHeader />
             </div>
