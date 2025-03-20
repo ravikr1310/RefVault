@@ -9,7 +9,7 @@ function Join() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'top',
             }}>
-            <div className='w-[1169px] m-auto'>
+            <div className='max-w-[1169px] m-auto'>
                 <div className='text-center pt-[91px]'>
                     <h2 className='text-[40px] font-bold font-poppins text-white leading-[2.85rem] text-center max-w-[962px] m-auto'>Join Thousands Making Smarter Decisions With RefVault.</h2>
                 </div>

@@ -3,8 +3,8 @@ import { InterviewIcon, VerifyIcon, BusinessIcon, ArchiveIcon } from '../constan
 
 function WhatWeDo() {
     return (
-        <div className='pt-[150px] pb-[110px]'>
-            <div className='w-[1169px] m-auto'>
+        <div className='pt-[150px] pb-[110px] relative'>
+            <div className='max-w-[1169px] m-auto'>
                 <div className='text-center'>
                     <div className='bg-primaryGray text-xs font-semibold rounded-[17px] py-[7px] px-5 inline-block'>What We Do</div>
                     <h2 className='text-[40px] font-bold font-poppins leading-[2.85rem] pt-5'><div>
@@ -12,7 +12,7 @@ function WhatWeDo() {
                     </div> Do For You?</h2>
                     <p className='text-base font-light font-notoSans pt-8'>Discover what RefVault does to simplify your reference experience</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[30px] mt-[123px] justify-between">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[30px] md:gap-[10px] mt-[123px] md:px-3 lg:px-0 justify-between">
                     <div className="flex flex-col items-center bg-white px-11 pb-10 shadow-custom-light rounded-2xl">
                         <div className="rounded-full bg-primaryColor w-[80px] h-[80px] flex items-center justify-center shadow-custom-primary relative -top-10">
                             <InterviewIcon />

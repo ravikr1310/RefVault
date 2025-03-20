@@ -42,7 +42,7 @@ export default function FeatureCarousel() {
   return (
     <div className="relative py-12 client-custom-carousel">
 
-      <div className="relative max-w-5xl mx-auto px-6">
+      <div className="relative lg:max-w-5xl md:max-w-xl mx-auto px-6">
         <Swiper
           modules={[Navigation, Pagination]}
           // spaceBetween={20}
@@ -80,7 +80,7 @@ export default function FeatureCarousel() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="absolute top-0 z-10 left-[46%]">
+        <div className="absolute top-0 z-10 lg:left-[46%] md:left-[42%]">
           <img
             src={BusinessMan}
             alt={"testimonial.name"}

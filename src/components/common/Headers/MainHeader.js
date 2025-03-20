@@ -10,10 +10,10 @@ function MainHeader() {
     const isActive = (path) => location.pathname === path;
     return (
         <div className='py-[22px] flex items-center bg-white'>
-            <div className='w-[1169px] flex items-center'>
+            <div className='lg:w-[1169px] md:w-[722px] flex items-center'>
                 <LogoIcon />
                 <div className='flex justify-between w-full'>
-                    <nav className='flex items-center pl-[215px] gap-[70px] text-base'>
+                    <nav className='flex items-center pl-[88px] gap-[40px] text-base'>
                         <Link to='/' className={`${isActive('/') ? 'border-b-2 border-primaryColor' : ''}`}>Home</Link>
                         <Link to='/features' className={`${isActive('/features') ? 'border-b-2 border-primaryColor' : ''}`}>Features</Link>
                         <Link to='/pricing' className={`${isActive('/pricing') ? 'border-b-2 border-primaryColor' : ''}`}>Pricing</Link>

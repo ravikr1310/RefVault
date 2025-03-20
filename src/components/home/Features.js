@@ -11,7 +11,7 @@ function Features() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'top',
             }}>
-            <div className='w-[1169px] m-auto'>
+            <div className='max-w-[1169px] m-auto'>
                 <div className='text-center pt-[103px]'>
                     <div className='bg-white bg-opacity-20 text-xs text-white font-semibold font-poppins rounded-[17px] py-[7px] px-5 inline-block'>Features</div>
                     <h2 className='text-[40px] font-bold font-poppins text-white leading-[2.85rem] pt-5 text-center'>Our Features</h2>

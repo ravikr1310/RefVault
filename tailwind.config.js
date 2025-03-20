@@ -28,6 +28,12 @@ module.exports = {
         'custom-header': '0px 10px 20px #00000014'
       },
     },
+    screens: {
+      sm: '640px',  // Small devices (phones)
+      md: '768px',  // Medium devices (tablets, portrait mode)
+      lg: '1024px', // Large devices (tablets, landscape mode, small desktops)
+      xl: '1280px', // Extra large devices (large desktops)
+    },
   },
   plugins: [],
 }

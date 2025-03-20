@@ -80,7 +80,7 @@ export default function FeatureCarousel() {
   return (
     <div className="relative py-12 feature-custom-carousel">
 
-      <div className="relative max-w-5xl mx-auto px-6">
+      <div className="relative lg:max-w-5xl md:max-w-96 mx-auto px-6">
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={20}
@@ -95,11 +95,7 @@ export default function FeatureCarousel() {
             nextEl: ".next-btn",
           }}
           pagination={{
-            // el: ".custom-pagination",
             clickable: true,
-            // renderBullet: function (index, className) {
-            //   return `<span class="${className} custom-bullet">_</span>`;
-            // },
           }}
           breakpoints={{
             640: { slidesPerView: 1 },

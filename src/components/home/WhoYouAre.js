@@ -8,7 +8,7 @@ import Schools from '../../images/schools.png';
 function WhoYouAre() {
     return (
         <div className='pt-[150px] pb-[110px] bg-white'>
-            <div className='w-[1169px] m-auto'>
+            <div className='max-w-[1169px] m-auto'>
                 <div className='text-center'>
                     <div className='bg-primaryGray text-xs font-semibold rounded-[17px] py-[7px] px-5 inline-block'>Who You Are</div>
                     <h2 className='text-[40px] font-bold font-poppins leading-[2.85rem] pt-5'><div>
@@ -16,7 +16,7 @@ function WhoYouAre() {
                     </div></h2>
                     <p className='text-base font-light font-notoSans pt-8'>Discover what RefVault can do for you—unlock the benefits of seamless, secure reference management.</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-[30px] mt-[123px] justify-between">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-[30px] mt-[123px] justify-between">
                     <div className="flex flex-col items-center">
                         <div className="flex items-center justify-center">
                             <img src={BusinessMan} alt='interview' />

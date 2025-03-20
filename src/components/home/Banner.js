@@ -5,10 +5,10 @@ import { FacebookIcon, InstagramIcon, LinkinedIcon } from '../constant/SvgFile';
 function Banner() {
     return (
         <div
-            className="w-full h-screen mt-[130px] bg-cover bg-center relative"
+            className="h-screen mt-[130px] bg-cover bg-center relative"
             style={{ backgroundImage: `url(${HomeBgBanner})` }}
         >
-            <div className="w-full max-w-[1169px] mx-auto pt-[100px] md:pt-[150px] flex flex-col md:flex-row items-start px-4 md:px-0">
+            <div className="lg:w-[1169px] md:w-[722px] mx-auto pt-[100px] md:pt-[150px] flex flex-col md:flex-row items-start px-4 md:px-0">
                 <div className="text-white md:w-[540px] pb-10 md:pb-[43px]">
                     <h1 className="text-[32px] md:text-[50px] font-bold font-poppins leading-[1.15] pb-6">Streamlined, Secure, And Smart Reference Management</h1>
                     <p className="text-sm md:text-base font-light font-notoSans opacity-90 w-full md:w-[380px]">Request, Verify, Analyze and Archive Professional References – all in one platform</p>
