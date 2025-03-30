@@ -23,14 +23,14 @@ function Institutions() {
                         <div className='grid grid-cols-1 md:grid-cols-[44%_56%] gap-[30px] mx-auto'>
                             <div className="bg-[#F6F9FA] p-10 rounded-lg relative">
                                 <span className="absolute top-2 right-4 text-3xl text-gray-300 font-bold">
-                                    <img className='w-[70px] relative -top-[37px] -left-[28px]' src={ZeroOne} alt='01' />
+                                    <img className=' relative -top-[37px] -left-[28px] h-[60px]' src={ZeroOne} alt='01' />
                                 </span>
                                 <h3 className="font-semibold text-lg pb-5">Create An Account</h3>
                                 <p className='font-light text-sm text-black text-opacity-50'>Sign up and set up your profile in minutes.</p>
                             </div>
                             <div className="bg-[#256F77] text-white p-10 rounded-lg relative top-[53px]">
                                 <span className="absolute top-2 right-4 text-3xl text-white/50 font-bold">
-                                    <img className='w-[70px] relative -top-[44px] -left-[13px]' src={ZeroTwo} alt='02' />
+                                    <img className='relative -top-[44px] -left-[13px] h-[60px]' src={ZeroTwo} alt='02' />
                                 </span>
                                 <h3 className="font-semibold text-lg pb-5">Create A Reference Project</h3>
                                 <p className='font-light text-sm text-white text-opacity-50'>Set up a reference project to manage candidates for a specific role or program.</p>
@@ -48,13 +48,13 @@ function Institutions() {
                                     <li className='flex justify-center'><span className="font-semibold text-base text-primaryColor pr-6">02</span>
                                         <div className='font-light text-sm'>Generate a Reference Request Link and share it with applicants. Applicants can use the link to enter their own and their referees’ details, reducing administrative workload.</div></li>
                                 </ul>
-                                <span className="bottom-[44px] -left-[65px] text-3xl text-gray-300 font-bold absolute">
-                                    <img className='w-[70px]' src={ZeroThree} alt='03' />
+                                <span className="bottom-[44px] -left-[82px] text-3xl text-gray-300 font-bold absolute">
+                                    <img className='h-[60px]' src={ZeroThree} alt='03' />
                                 </span>
                             </div>
                             <div className="bg-[#F6F9FA] p-10 rounded-lg relative max-h-fit top-[57px]">
                                 <span className="absolute top-2 right-4 text-3xl text-gray-300 font-bold">
-                                    <img className='w-[70px] relative top-[17px] -right-[31px]' src={ZeroFour} alt='04' />
+                                    <img className=' relative h-[60px] top-[5px] -right-[38px]' src={ZeroFour} alt='04' />
                                 </span>
                                 <h3 className="font-semibold text-lg pb-5">Deploy Reference Requests</h3>
                                 <p className='font-light text-sm text-black text-opacity-50'>RefVault sends reference requests automatically to referees, keeping you updated.</p>
@@ -66,15 +66,15 @@ function Institutions() {
                             <div className="bg-black text-white p-10 rounded-lg relative">
                                 <h3 className="font-semibold text-lg pb-5">Verification For Trust And Accuracy</h3>
                                 <p className='font-light text-sm text-white text-opacity-50'>Ensures all references are authentic and credible, providing peace of mind.</p>
-                                <span className="absolute top-2 right-4 text-3xl text-gray-300 font-bold">
-                                    <img className='w-[70px] relative top-[169px] right-[10px]' src={ZeroSix} alt='06' />
+                                <span className="absolute -top-2 right-4 text-3xl text-gray-300 font-bold">
+                                    <img className=' relative top-[169px] right-[10px] h-[60px]' src={ZeroSix} alt='06' />
                                 </span>
                             </div>
                             <div className="bg-[#F6F9FA] text-black p-10 rounded-lg relative -top-[130px]">
                                 <h3 className="font-semibold text-lg pb-5">Receive Analyzed Insights</h3>
                                 <p className='font-light text-sm text-black text-opacity-50'>RefVault evaluates responses and generates actionable insights in real time.</p>
-                                <span className="absolute top-2 right-4 text-3xl text-white/50 font-bold">
-                                    <img className='w-[70px] relative -bottom-[165px] right-[31px]' src={ZeroFive} alt='05' />
+                                <span className="absolute top-0 right-4 text-3xl text-white/50 font-bold">
+                                    <img className=' relative -bottom-[165px] right-[31px] h-[60px]' src={ZeroFive} alt='05' />
                                 </span>
                             </div>
                         </div>
