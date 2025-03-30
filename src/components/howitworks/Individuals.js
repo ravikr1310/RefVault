@@ -1,7 +1,7 @@
 import React from 'react';
 import HowItWorksBg from '../../images/howitwork.png';
-import DottedLineLeft from '../../images/dottedLineLeft.png';
-import DottedLineRight from '../../images/dottedLineRight.png';
+import DottedLineLeft from '../../images/Left.png';
+import DottedLineRight from '../../images/Right.png';
 
 const steps = [
     { title: "Create an Account", description: "Sign up to create your profile on Talent." },
@@ -33,14 +33,14 @@ function Individuals() {
                                 Sign up and set up your profile in minutes.
                             </p>
                         </div>
-                        <div className="ml-6 flex items-center absolute right-[246px] top-[46px]">
+                        <div className="ml-6 flex items-center absolute right-[272px] top-[60px]">
                             <img src={DottedLineRight} alt='dotted line' />
                         </div>
                     </div>
 
                     {/* Step 2 */}
                     <div className="relative flex items-center w-full justify-end">
-                        <div className="mr-6 flex items-center absolute left-[246px] top-[68px]">
+                        <div className="mr-6 flex items-center absolute left-[271px] top-[80px]">
                             <img src={DottedLineLeft} alt='dotted line' />
                         </div>
                         <div className="bg-white shadow-custom-secondary p-10 rounded-xl w-3/6">
@@ -59,13 +59,13 @@ function Individuals() {
                                 Receive real-time updates when referees complete the questionnaires, ensuring you stay informed throughout the process.
                             </p>
                         </div>
-                        <div className="ml-6 flex items-center absolute right-[246px] top-[66px]">
+                        <div className="ml-6 flex items-center absolute right-[272px] top-[79px]">
                             <img src={DottedLineRight} alt='dotted line' />
                         </div>
                     </div>
                     {/* Step 4 */}
                     <div className="relative flex items-center w-full justify-end">
-                        <div className="mr-6 flex items-center absolute left-[246px] top-[68px]">
+                        <div className="mr-6 flex items-center absolute left-[271px] top-[80px]">
                             <img src={DottedLineLeft} alt='dotted line' />
                         </div>
                         <div className="bg-white shadow-custom-secondary p-10 rounded-xl w-3/6">
@@ -83,13 +83,13 @@ function Individuals() {
                                 Store your verified and analyzed references in one secure location, creating a reusable portfolio for job or academic applications.
                             </p>
                         </div>
-                        <div className="ml-6 flex items-center absolute right-[246px] top-[66px]">
+                        <div className="ml-6 flex items-center absolute right-[272px] top-[79px]">
                             <img src={DottedLineRight} alt='dotted line' />
                         </div>
                     </div>
                     {/* Step 6 */}
                     <div className="relative flex items-center w-full justify-end">
-                        <div className="mr-6 flex items-center absolute left-[246px] top-[89px]">
+                        <div className="mr-6 flex items-center absolute left-[271px] top-[99px]">
                             <img src={DottedLineLeft} alt='dotted line' />
                         </div>
                         <div className="bg-white shadow-custom-secondary p-10 rounded-xl w-3/6">
@@ -107,7 +107,7 @@ function Individuals() {
                                 Archive your references for future use and avoid burdening referees with repeat requests.
                             </p>
                         </div>
-                        <div className="ml-6 flex items-center absolute right-[246px] top-[66px]">
+                        <div className="ml-6 flex items-center absolute right-[272px] top-[79px]">
                             <img src={DottedLineRight} alt='dotted line' />
                         </div>
                     </div>
