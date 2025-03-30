@@ -17,6 +17,7 @@ function MainHeader() {
                         <Link to='/' className={`${isActive('/') ? 'border-b-2 border-primaryColor' : ''}`}>Home</Link>
                         <Link to='/features' className={`${isActive('/features') ? 'border-b-2 border-primaryColor' : ''}`}>Features</Link>
                         <Link to='/pricing' className={`${isActive('/pricing') ? 'border-b-2 border-primaryColor' : ''}`}>Pricing</Link>
+                        <Link to='/howitworks' className={`${isActive('/pricing') ? 'border-b-2 border-primaryColor' : ''}`}>How It Works</Link>
                         <Link to='/about' className={`flex items-center gap-[10px] ${isActive('/about') ? 'border-b-2 border-primaryColor' : ''}`}>About us <img src={Downarrow} alt='downarrow' /></Link>
                     </nav>
                     <button onClick={() => console.log("Login")} className='py-2 px-5 rounded-md bg-secondaryColor text-sm text-white font-medium'>Login</button>

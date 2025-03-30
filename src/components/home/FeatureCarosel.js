@@ -80,7 +80,7 @@ export default function FeatureCarousel() {
   return (
     <div className="relative py-12 feature-custom-carousel">
 
-      <div className="relative lg:max-w-5xl md:max-w-96 mx-auto px-6">
+      <div className="relative xl:max-w-5xl md:max-w-[36rem] mx-auto px-6">
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={20}
@@ -107,7 +107,7 @@ export default function FeatureCarousel() {
             <SwiperSlide key={index} className="flex justify-center">
               <div
                 className={`transition-all duration-300 ease-in-out ${activeIndex === index ? "scale-100 shadow-2xl pt-[10px] h-[375px]" : "scale-90 mt-[41px] opacity-70"
-                  } bg-white rounded-lg shadow-lg p-[10px] w-[270px] text-center`}
+                  } bg-white rounded-lg shadow-lg p-[10px] lg:w-[270px] md:w-[150px] text-center`}
               >
                 <img
                   src={feature.img}

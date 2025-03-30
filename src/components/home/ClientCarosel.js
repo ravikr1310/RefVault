@@ -42,7 +42,7 @@ export default function FeatureCarousel() {
   return (
     <div className="relative py-12 client-custom-carousel">
 
-      <div className="relative lg:max-w-5xl md:max-w-xl mx-auto px-6">
+      <div className="relative xl:max-w-5xl md:max-w-xl mx-auto px-6">
         <Swiper
           modules={[Navigation, Pagination]}
           // spaceBetween={20}
